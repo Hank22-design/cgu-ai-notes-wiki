@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>長庚大學 AI 學習筆記與實作知識庫</title>
+    <!-- 引入 Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased">
+
+    <div class="flex h-screen overflow-hidden">
+        <!-- 側邊欄導覽 -->
+        <aside class="w-64 bg-white border-r border-slate-200 flex flex-col">
+            <div class="p-6 border-b border-slate-100">
+                <h1 class="text-lg font-bold text-indigo-600">CGU AI Notes Wiki</h1>
+                <p class="text-xs text-slate-400 mt-1">長庚大學 電子 二乙 | B1427203 楊舜傑</p>
+            </div>
+            <nav class="flex-1 p-4 space-y-2 overflow-y-auto">
+                <a href="#" class="block px-4 py-2 text-sm font-medium text-indigo-600 bg-indigo-50 rounded-lg">🏠 首頁總覽</a>
+                <a href="#electronics" class="block px-4 py-2 text-sm font-medium text-slate-600 hover:bg-slate-50 rounded-lg">⚡ 電子學與電路分析</a>
+                <a href="#c-programming" class="block px-4 py-2 text-sm font-medium text-slate-600 hover:bg-slate-50 rounded-lg">💻 C 語言與演算法</a>
+                <a href="#ai-agents" class="block px-4 py-2 text-sm font-medium text-slate-600 hover:bg-slate-50 rounded-lg">🤖 AI Agent 實作</a>
+            </nav>
+        </aside>
+
+        <!-- 主內容區 -->
+        <main class="flex-1 overflow-y-auto p-10">
+            <div class="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-sm border border-slate-100">
+                <h2 class="text-3xl font-extrabold text-slate-900 mb-4">歡迎來到我的 AI 學習知識庫</h2>
+                <p class="text-slate-600 leading-relaxed mb-6">
+                    這是為長庚大學電子系大二級課程所建立的結構化知識庫網站。本專案透過嚴謹的 <code class="bg-slate-100 text-indigo-600 px-2 py-1 rounded text-sm">CLAUDE.md</code> 規範來指引 AI 協同開發，方便未來持續新增與檢索各科筆記。
+                </p>
+                <hr class="my-6 border-slate-100">
+                <h3 class="text-xl font-bold text-slate-800 mb-3">📌 本學期重點筆記清單</h3>
+                <ul class="space-y-3">
+                    <li class="p-4 bg-slate-50 rounded-xl border border-slate-100 flex justify-between items-center">
+                        <div>
+                            <h4 class="font-semibold text-slate-800">BJT 放大器與負載線分析</h4>
+                            <p class="text-xs text-slate-400 mt-05">電子學筆記 · 2026-11-16</p>
+                        </div>
+                        <span class="text-xs bg-indigo-100 text-indigo-700 px-3 py-1 rounded-full font-medium">電子學</span>
+                    </li>
+                </ul>
+            </div>
+        </main>
+    </div>
+
+</body>
+</html>
